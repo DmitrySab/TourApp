@@ -10,7 +10,8 @@
         android:id="@+id/about_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="bottom"
+
         android:text="@string/about" />
 
 </FrameLayout>

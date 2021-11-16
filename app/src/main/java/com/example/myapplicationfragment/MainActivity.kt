@@ -8,6 +8,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val menuFragment =  MenuFragment()
+        supportFragmentManager.beginTransaction()
+            .add(R.id.fragment_container,menuFragment)
+            .commit()
 
     }
 }
