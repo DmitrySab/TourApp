@@ -11,13 +11,10 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MenuFragment : Fragment() {
 
- //   private lateinit var aboutButton : Button
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
        val view =  inflater.inflate(R.layout.recycler_view, container, false)
 
         val bannerList :List<Banner> = listOf(
@@ -34,10 +31,6 @@ class MenuFragment : Fragment() {
         bannerRecyclerView.layoutManager =
             LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL,false)
         bannerRecyclerView.adapter = BannerAdapter(bannerList)
-
-
-
-
 
 
         return view

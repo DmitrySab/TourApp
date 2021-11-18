@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Как бы приложение для туристов</string>
-    <string name="about_info">Очень важная информация.\n
+    <string name="about_info"> Очень важная информация.\n\n
+        Разработчик:\n
+        Дмитрий Сабреков (Глазов).\n
+        Преподаватель:\n
+        Максим Новопашенный (Москва).\n
+
         </string>
     <string name="about">информация</string>
     <string name="knots">Узлы</string>
     <string name="signs">Топознаки</string>
     <string name="about_menu">Инфо</string>
+    <string name="odin_study">Портал дистанционного обучения ТГУ - \'Odin.study\'</string>
 </resources>

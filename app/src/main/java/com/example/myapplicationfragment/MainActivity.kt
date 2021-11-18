@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
 
-
 private const val LAST_SELECTED_ITEM = "item"
 
 class MainActivity : AppCompatActivity() {
@@ -40,13 +39,11 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-
             true
         }
 
         bottomMenu.selectedItemId =
             savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.home
-
     }
 
     private fun replaceFragment(fragment:Fragment){
@@ -54,7 +51,6 @@ class MainActivity : AppCompatActivity() {
             .beginTransaction()
             .replace(R.id.fragment_container, fragment)
             .commit()
-
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
