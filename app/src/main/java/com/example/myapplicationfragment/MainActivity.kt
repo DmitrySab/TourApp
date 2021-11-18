@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
         bottomMenu.setOnItemSelectedListener{item ->
             when(item.itemId){
+                R.id.home->{
+                    val homeFragment = HomeFragment()
+                    replaceFragment(homeFragment)
+                }
                 R.id.knots->{
                     val menuFragment = MenuFragment()
                     replaceFragment(menuFragment)
@@ -41,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         bottomMenu.selectedItemId =
-            savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.about
+            savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.home
 
     }
 

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Application Fragment</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="about_info">Очень важная информация, содержащая ключевые данные и основные контакты</string>
+    <string name="app_name">Как бы приложение для туристов</string>
+    <string name="about_info">Очень важная информация.\n
+        </string>
     <string name="about">информация</string>
     <string name="knots">Узлы</string>
     <string name="signs">Топознаки</string>
