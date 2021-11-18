@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">My Application Fragment</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="about_info">Hello blank fragment</string>
-    <string name="about">о нас</string>
-    <string name="menu">Меню</string>
-    <string name="about_menu">О..</string>
+    <string name="about_info">Очень важная информация, содержащая ключевые данные и основные контакты</string>
+    <string name="about">информация</string>
+    <string name="knots">Узлы</string>
+    <string name="signs">Топознаки</string>
+    <string name="about_menu">Инфо</string>
 </resources>

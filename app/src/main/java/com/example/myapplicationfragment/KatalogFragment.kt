@@ -7,18 +7,17 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 
-class MenuFragment : Fragment() {
+class KatalogFragment : Fragment() {
 
- //   private lateinit var aboutButton : Button
+   // private lateinit var aboutButton : Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-       val view =  inflater.inflate(R.layout.fragment_menu, container, false)
-
-        return view
+       val view =  inflater.inflate(R.layout.fragment_katalog, container, false)
+       return view
     }
 
 

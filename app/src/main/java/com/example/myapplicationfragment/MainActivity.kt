@@ -19,11 +19,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         bottomMenu = findViewById(R.id.bottom_menu)
 
+
         bottomMenu.setOnItemSelectedListener{item ->
             when(item.itemId){
-                R.id.menu->{
+                R.id.knots->{
                     val menuFragment = MenuFragment()
                     replaceFragment(menuFragment)
+                }
+                R.id.signs->{
+                    val katalogFragment = KatalogFragment()
+                    replaceFragment(katalogFragment)
                 }
                 R.id.about->{
                     val aboutFragment = AboutFragment()
@@ -36,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         bottomMenu.selectedItemId =
-            savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.menu
+            savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.about
 
     }
 
